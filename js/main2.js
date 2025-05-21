@@ -20,7 +20,7 @@ function searchMovie() {
                                 <img src="`+ data.Poster +`" class="card-img-top" alt="...">
                                 <div class="card-body d-flex flex-column justify-content-beetwen">
                                     <h5 class="card-title">`+ data.Title +`</h5>
-                                    <h6 class="card-subtitle mb-2 text-body-secondary">`+ data.Year +`</h6>
+                                    <h6 class="card-subtitle mb-2 text-white">`+ data.Year +`</h6>
                                     <a href="#" class="card-link see-detail" data-bs-toggle="modal" data-bs-target="#exampleModal" data-id="`+ data.imdbID +`">See Detail</a>
                                 </div>
                             </div>
@@ -113,7 +113,7 @@ function loadDefaultMovies() {
                             <img src="`+ movies.Poster +`" class="card-img-top" alt="...">
                             <div class="card-body d-flex flex-column justify-content-beetwen">
                                 <h5 class="card-title">`+ movies.Title +`</h5>
-                                <h6 class="card-subtitle mb-2 text-body-secondary">`+ movies.Year +`</h6>
+                                <h6 class="card-subtitle mb-2 text-white">`+ movies.Year +`</h6>
                                 <a href="#" class="card-link see-detail" data-bs-toggle="modal" data-bs-target="#exampleModal" data-id="`+ movies.imdbID +`">See Detail</a>
                             </div>
                         </div>
