@@ -2,7 +2,7 @@ function searchMovie() {
     $('#movie-list').html('');
 
     $.ajax({
-        url: 'http://www.omdbapi.com/?',
+        url: 'https://www.omdbapi.com/?',
         type: 'get',
         dataType: 'json',
         data: {
@@ -49,7 +49,7 @@ $('#search-form').on('submit', function (e) {
 
 $('#movie-list').on('click', '.see-detail', function () {
     $.ajax({
-        url: 'http://www.omdbapi.com/?',
+        url: 'https://www.omdbapi.com/?',
         type: 'get',
         dataType: 'json',
         data: {
@@ -98,7 +98,7 @@ function loadDefaultMovies() {
 
     defaultTitles.forEach(function(title) {
     $.ajax({
-        url: 'http://www.omdbapi.com/?',
+        url: 'https://www.omdbapi.com/?',
         type: 'get',
         dataType: 'json',
         data: {
